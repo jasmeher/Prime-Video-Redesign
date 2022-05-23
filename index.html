@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Prime Video</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.1.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar-custom sticky-top">
+      <div class="row navbar-row">
+        <div class="col-4 nav-part-1">
+          <div class="menu-icon">
+            <a href="#navbar-offcanvas" data-bs-toggle="offcanvas" role="button"
+              ><img src="Icons/menu.svg" alt="" class="img-fluid"
+            /></a>
+          </div>
+        </div>
+        <div class="col-4 nav-part-2">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="Images/logo.png" alt="Prime Video" class="img-fluid"
+            /></a>
+          </div>
+        </div>
+        <div class="col-4 nav-part-3">
+          <div class="dropdown">
+            <a
+              href="#"
+              class="dropdown-toggle"
+              data-bs-toggle="dropdown"
+              id="user-dropdown"
+              ><img src="Icons/user.svg" alt="" class="img-fluid"
+            /></a>
+
+            <ul class="dropdown-menu" aria-labelledby="user-dropdown">
+              <li>
+                <a class="dropdown-item mb-3" href="#"
+                  ><img src="Icons/user.svg" alt="" class="img-fluid me-3" />
+                  Jasmeher</a
+                >
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><span class="material-icons me-3">settings</span> Account
+                  Settings</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><span class="material-icons me-3">group</span> Manage
+                  Profiles</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><span class="material-icons me-3">menu_book</span> Learn
+                  More</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="login-page.html"
+                  ><span class="material-icons me-3">logout</span> Sign Out</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="header-featured" class="mb-5">
+      <div
+        id="featured-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url(Images/american-gods.jpg)"
+            data-bs-interval="6000"
+          >
+            <a href="american-gods/index.html">
+              <div class="carousel-info-container">
+                <div class="logo-carousel">
+                  <img
+                    src="Images/american-gods-logo.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="info">
+                  When Shadow Moon is released from prison, he meets the
+                  mysterious Mr. Wednesday and a storm begins to brew. Little
+                  does Shadow know, this storm will change the course of his
+                  entire life. Left adrift by the recent, tragic death of his
+                  wife, and suddenly hired as Mr. Wednesday’s bodyguard, Shadow
+                  finds himself in the center of a world that he struggles to
+                  understand.
+                </div>
+                <div class="cta-group">
+                  <button class="cta primary-cta">
+                    <span class="material-icons"> play_arrow </span>Play
+                  </button>
+                  <button class="cta secondary-cta">
+                    <span class="material-icons"> add </span>My List
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(Images/the-boys.jpg)"
+            data-bs-interval="6000"
+          >
+            <a href="The-Boys/index.html">
+              <div class="carousel-info-container">
+                <div class="logo-carousel">
+                  <img
+                    src="Images/the-boys-logo.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="info">
+                  THE BOYS is an irreverent take on what happens when
+                  superheroes, who are as popular as celebrities, as influential
+                  as politicians and as revered as Gods, abuse their superpowers
+                  rather than use them for good. It's the powerless against the
+                  super powerful as The Boys embark on a heroic quest to expose
+                  the truth about “The Seven,” and their formidable Vought
+                  backing.
+                </div>
+                <div class="cta-group">
+                  <button class="cta primary-cta">
+                    <span class="material-icons"> play_arrow </span>Play
+                  </button>
+                  <button class="cta secondary-cta">
+                    <span class="material-icons"> add </span>My List
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url(Images/invincible.jpg)"
+            data-bs-interval="6000"
+          >
+            <div class="carousel-info-container">
+              <div class="logo-carousel">
+                <img
+                  src="Images/invincible-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="info">
+                INVINCIBLE is an adult animated superhero series that revolves
+                around 17-year-old Mark Grayson, who’s just like every other guy
+                his age — except his father is the most powerful superhero on
+                the planet, Omni-Man. But as Mark develops powers of his own, he
+                discovers his father’s legacy may not be as heroic as it seems.
+              </div>
+              <div class="cta-group">
+                <button class="cta primary-cta">
+                  <span class="material-icons"> play_arrow </span>Play
+                </button>
+                <button class="cta secondary-cta">
+                  <span class="material-icons"> add </span>My List
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#featured-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#featured-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <section id="my-list" class="mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="heading-section">My <span class="accent">List</span></h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-list py-5 mb-5">
+            <div class="poster-box">
+              <a href="American-gods/index.html">
+                <img
+                  src="Images/american-gods-poster.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="poster-box">
+              <a href="The-Boys/index.html"
+                ><img src="Images/the-boys-poster.jpg" alt="" class="img-fluid"
+              /></a>
+            </div>
+            <div class="poster-box">
+              <img
+                src="Images/invincible-poster.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <img
+                src="Images/the-office-poster.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <img src="Images/jack-ryan-poster.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/hanna-poster.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img
+                src="Images/the-wheel-of-time.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <img src="Images/Upload.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/reacher.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/hunters.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/good-omens.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="originals">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="heading-section">
+              Amazon <span class="accent">Originals</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-list py-5 mb-5">
+            <a href="The-Boys/index.html">
+              <div
+                class="poster-box-lg"
+                style="background-image: url(Images/the-boys.jpg)"
+              >
+                <div class="poster-lg-logo">
+                  <img
+                    src="Images/the-boys-logo.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </a>
+
+            <a href="American-gods/index.html">
+              <div
+                class="poster-box-lg"
+                style="background-image: url(Images/american-gods.jpg)"
+              >
+                <div class="poster-lg-logo">
+                  <img
+                    src="Images/american-gods-logo.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </a>
+
+            <div
+              class="poster-box-lg"
+              style="background-image: url(Images/borat.jpg)"
+            >
+              <div class="poster-lg-logo">
+                <img src="Images/borat-logo.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+
+            <div
+              class="poster-box-lg"
+              style="background-image: url(Images/invincible.jpg)"
+            >
+              <div class="poster-lg-logo">
+                <img
+                  src="Images/invincible-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+
+            <div
+              class="poster-box-lg"
+              style="background-image: url(Images/carnival-row.jpg)"
+            >
+              <div class="poster-lg-logo">
+                <img
+                  src="Images/carnival-row-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+
+            <div
+              class="poster-box-lg"
+              style="background-image: url(Images/supernatural.jpg)"
+            >
+              <div class="poster-lg-logo">
+                <img
+                  src="Images/supernatural_logo.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+
+            <div
+              class="poster-box-lg"
+              style="
+                background-image: url(Images/the-wheel-of-time-poster-lg.jpg);
+              "
+            >
+              <div class="poster-lg-logo">
+                <img
+                  src="Images/the-wheel-of-time-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+
+            <div
+              class="poster-box-lg"
+              style="background-image: url(Images/mirzapur.jpg)"
+            >
+              <div class="poster-lg-logo">
+                <img src="Images/mirzapur-logo.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="selection-for-you" class="mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="heading-section">
+              Selection <span class="accent">For You</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-list py-5 mb-5">
+            <div class="poster-box">
+              <img src="Images/mr-robot.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/john-wick-2.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/ouatih.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="poster-box">
+              <img src="Images/reacher.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/jack-ryan-poster.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/cinderella.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img
+                src="Images/the-office-poster.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <img src="Images/hanna-poster.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/mib.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/hunters.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/good-omens.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="movies" class="mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="heading-section">
+              Popular <span class="accent">Movies</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-list py-5 mb-5">
+            <div class="poster-box">
+              <img src="Images/pushpa-poster.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/ouatih.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/john-wick-2.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="poster-box">
+              <img src="Images/cinderella.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/mib.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img
+                src="Images/hotel-transylvania-poster.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <img src="Images/john-wick-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/john-wick-3.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/mib.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/joker.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/courier.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shows" class="mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="heading-section">
+              Popular <span class="accent">Shows</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-list py-5 mb-5">
+            <div class="poster-box">
+              <img
+                src="Images/the-office-poster.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <a href="The-Boys/index.html"
+                ><img src="Images/the-boys-poster.jpg" alt="" class="img-fluid"
+              /></a>
+            </div>
+            <div class="poster-box">
+              <img src="Images/mr-robot.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="poster-box">
+              <a href="American-gods/index.html">
+                <img
+                  src="Images/american-gods-poster.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="poster-box">
+              <img src="Images/vinland-saga.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/grand-blue.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img
+                src="Images/invincible-poster.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="poster-box">
+              <img src="Images/jack-ryan-poster.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/dexter.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/psych.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="poster-box">
+              <img src="Images/chuck.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFF CANVAS NAVBAR -->
+
+    <div
+      class="offcanvas offcanvas-start offcanvas-nav-bg"
+      id="navbar-offcanvas"
+    >
+      <div class="offcanvas-header">
+        <div class="nav-logo-container">
+          <img src="Images/logo.png" class="img-fluid" />
+        </div>
+        <button
+          type="button"
+          class="text-reset close-bttn"
+          data-bs-dismiss="offcanvas"
+        >
+          <span class="material-icons close-icon">close</span>
+        </button>
+      </div>
+
+      <div class="offcanvas-body">
+        <div class="container-fluid">
+          <ul class="nav-list tab">
+            <li class="nav-item">
+              <a class="nav-link tab-links"
+                ><span class="material-icons mi-icons">home</span> HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tab-links"
+                ><span class="material-icons mi-icons">view_stream</span>MY
+                LIST</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tab-links"
+                ><span class="material-icons mi-icons">videocam</span>MOVIES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tab-links"
+                ><span class="material-icons mi-icons">ondemand_video</span>TV
+                SHOWS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tab-links"
+                ><span class="material-icons mi-icons">article</span
+                >DOCUMENTARIES</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="container-fluid friends-section">
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-2">
+              <div class="friend-pfp-section">
+                <div class="friend-pfp">
+                  <img src="Images/friend1.jfif" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="friend-info">
+                <p class="name">Jacira Saqui</p>
+                <p class="watching">Watching Money Heist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
